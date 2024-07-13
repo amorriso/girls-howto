@@ -24,5 +24,7 @@ I recommend you search for the artist and then click on Albums to see all the al
 
 ### Click on the album you want to download.
 
+### Click on the three dots on the right side of the album.
+
 ![Spotify](./images/spotify_album.png)
 

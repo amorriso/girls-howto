@@ -194,3 +194,43 @@ cd born_pink
 At this point, we have successfully created the directory structure to download the music to. We can now transfer the music.
 
 ![Terminal](./images/terminal_headphones_blackpink_born_pink.png)
+
+### Transfer the music to your headphones.
+
+Copy the music from the directory where you downloaded the music to the directory on your headphones. In your terminal window, you should have two terminal windows open, one in the directory where you downloaded the music and one in the directory on your headphones. You now need to copy the music from the directory where you downloaded the music to the directory on your headphones. To do this you will use the `cp` command. The `cp` command is used to copy files and directories. The syntax for the `cp` command is `cp source destination`. Because we are copying files from one directory to another, we will use the `cp` command with the `-r` flag. The `-r` flag is used to copy directories and their contents. The syntax for the `cp` command with the `-r` flag is `cp -r source destination`. 
+
+In the terminal window where you are on your headphones, type the following command:
+
+```bash
+pwd
+```
+
+This will show you the path to the directory on your headphones.
+
+If you change to the terminal window where you downloaded the music, you can type the same command to determine the path to the directory where you downloaded the music.
+
+I recommend changing to the terminal window where you downloaded the music, then moving up one directory by typing the following command:
+
+```bash
+cd ..
+```
+
+You can then type `ls` to see the directories in the directory where you downloaded the music.
+
+```bash
+ls
+```
+
+And then copying the music to your headphones by typing the following command:
+
+```bash
+cp -r blackpink /media/ee/3C4D-1A2B/blackpink
+```
+
+This command will take a while, it needs to move the music from your computer to your headphones. You will not see any output until the command has finished. 
+
+![Terminal](./images/terminal_cp.png)
+
+Once the command has finished, you can change to the tab where you are in the directory on your headphones and type `ls` to see the directories in the directory on your headphones.
+
+![Terminal](./images/terminal_headphones_blackpink.png)

@@ -79,5 +79,5 @@ At this point, I can type `ls` to see the directory I just created.
 ```bash
 ls
 ```
-
+![Terminal](./images/terminal_blackpink_ls.png)
 

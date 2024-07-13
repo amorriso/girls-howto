@@ -66,15 +66,15 @@ Try typing tree without the -d flag to see the files as well.
 
 ### Decide where you want to put the music.
 
-From the screenshot above, you can see that there is a directory called taylor_swift, and inside that directory there are directories for two of her albums. Earlier in this guide, I searched for the artist BlackPink and then clicked on the album "Born Pink". I will download this album to the directory /media/NAS/spotify_music/blackpink/born_pink. To do this, I will create the directory blackpink and then the directory born_pink. I will then download the music to the born_pink directory. You will need to do something similar for the music you want to download. *It won't be the same as mine, but you will need to create a directory for the artist and then a directory for the album.*
+From the screenshot above, you can see that there is a directory called taylor_swift, and inside that directory there are directories for two of her albums. Earlier in this guide, I searched for the artist BlackPink and then clicked on the album "Born Pink". I will download this album to the directory /media/NAS/spotify_music/blackpink/born_pink. To do this, I will create the directory blackpink and then the directory born_pink. I will then download the music to the born_pink directory. You will need to do something similar for the music you want to download. **It won't be the same as mine, if you don't already have a directory for the artist you want to download, you will need to create a directory for the artist and then a directory for the album.** It could be the case that the artist is already present in the directory, in which case you can just create a directory for the album.
 
-To create the directory blackpink, type the following command:
+To create the directory blackpink, I type the following command:
 
 ```bash
 mkdir blackpink
 ```
 
-At this point, you can type `ls` to see the directory you just created.
+At this point, I can type `ls` to see the directory I just created.
 
 ```bash
 ls

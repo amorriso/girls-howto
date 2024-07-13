@@ -10,3 +10,15 @@ This guide will show you how to download music from Spotify to your computer and
 
 ![Spotify](./images/spotify.png)
 Click on the Spotify icon on your desktop to open the application.
+
+### Search for the music you want to download.
+![Spotify](./images/spotify_search.png)
+
+### Search for the artist you want to download.
+![Spotify](./images/spotify_artist_search.png)
+
+I recommend you search for the artist and then click on Albums to see all the albums available.
+
+
+![Spotify](./images/spotify_album_search.png)
+

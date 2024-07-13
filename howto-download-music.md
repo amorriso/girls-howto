@@ -124,4 +124,24 @@ ls
 
 ## Step 4: Transferring the Music to your Headphones
 
+### Connect your headphones to your computer. 
+Ensure only one set of headphones is connected to your computer. This will make it easier to find the headphones in the file manager.
+
+### Create a new terminal window.
+Click on the terminal window and press `Ctrl + Shift + T`. This will open a new terminal window in the same directory as the previous terminal window.
+
+### Change to the directory where your headphones are mounted.
+
+```bash
+cd /media/ee
+```
+Have a look around the directory by typing `ls`.
+
+```bash
+ls
+```
+
+This should return something like the following: 3C4D-1A2B, it won't look like this, but it will be similar, this will be the directory where your headphones are mounted.
+
+![Terminal](./images/terminal_headphones.png)
 

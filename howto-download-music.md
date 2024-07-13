@@ -100,3 +100,10 @@ cd born_pink
 ```
 
 ![Terminal](./images/terminal_blackpink_born_pink.png)
+
+At this point, we have successfully created the directory structure to download the music to. We can now download the music.
+
+## Step 3: Downloading the Music
+
+### Download the music using the link you copied earlier.
+It could be the case that the link you copied into your clipboard earlier has been lost. If this is the case, you will need to go back to Spotify and copy the link again. If you still have the link in your clipboard, you can paste it into the terminal window by either 'middle clicking' or right clicking and selecting paste. Likely the best thing to do is to go and copy the link again. See the section above on how to do this "Click Share, then click Copy Album Link".

@@ -40,8 +40,16 @@ It will then say something like "Link Copied" at the bottom of the screen. This 
 The easy way to do this is to press the Windows key and type "cmd" and press Enter.
 
 ### Change to the directory where you want to download the music.
-You computer is like a filing cabinet, you need to tell it where to put the music you are downloading. You can do this by typing `cd` followed by the path to the directory you want to download the music to. We want to download the music to the spotify_music directory on the backed up drive, so we type:
+You computer is like a filing cabinet, you need to tell it where to put the music you are downloading. You can do this by typing `cd` followed by the path to the directory you want to download the music to. We want to download the music to the spotify_music directory on the backed up drive. To do this, ensure you have clicked on the terminal window and type the following command:
 
 ```bash
 cd /media/NAS/spotify_music
 ```
+
+### Have a look around the directory.
+At this point, you can type `ls` to see what is in the directory. You should see a list of directories and files.
+
+```bash
+ls
+```
+![Terminal](./images/terminal_ls.png)

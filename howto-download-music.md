@@ -40,7 +40,7 @@ It will then say something like "Link Copied" at the bottom of the screen. This 
 The easy way to do this is to press the Windows key and type "cmd" and press Enter.
 
 ### Change to the directory where you want to download the music.
-You computer is like a filing cabinet, you need to tell it where to put the music you are downloading. You can do this by typing `cd` followed by the path to the directory you want to download the music to. We want to download the music to the spotify_music directory on the backed up drive. To do this, ensure you have clicked on the terminal window and type the following command:
+Your computer is like a filing cabinet, you need to tell it where to put the music you are downloading. You can do this by typing `cd` followed by the path to the directory you want to download the music to. We want to download the music to the spotify_music directory on the backed up drive. To do this, ensure you have clicked on the terminal window and type the following command:
 
 ```bash
 cd /media/NAS/spotify_music
@@ -159,3 +159,38 @@ ls
 
 ![Terminal](./images/terminal_headphones_ls.png)
 
+At this point, you need to decide where you want to put the music on your headphones. I highly recommend creating a directory for the artist and then a directory for the album. This will make it easier to find the music on your headphones, keeping your headphones organised in the same way as your computer. In the example I'm giving you now, you can see that there is no blackpink directory on the headphones. I will create a directory for blackpink and then a directory for the album born_pink. You will need to do something similar for the music you want to download. **It won't be the same as mine, if you don't already have a directory for the artist you want to download, you will need to create a directory for the artist and then a directory for the album.** It could be the case that the artist is already present in the directory, in which case you can just create a directory for the album.
+
+To create the directory blackpink, I type the following command:
+
+```bash
+mkdir blackpink
+```
+
+At this point, I can type `ls` to see the directory I just created.
+
+```bash
+ls
+```
+
+I can then change to the directory blackpink by typing the following command:
+
+```bash
+cd blackpink
+```
+
+I can then create the directory born_pink by typing the following command:
+
+```bash
+mkdir born_pink
+```
+
+I can then change to the directory born_pink by typing the following command:
+
+```bash
+cd born_pink
+```
+
+At this point, we have successfully created the directory structure to download the music to. We can now transfer the music.
+
+![Terminal](./images/terminal_headphones_blackpink_born_pink.png)

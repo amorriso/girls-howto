@@ -145,3 +145,17 @@ This should return something like the following: 3C4D-1A2B, it won't look like t
 
 ![Terminal](./images/terminal_headphones.png)
 
+### Change to the directory where you want to put the music on your headphones.
+
+```bash
+cd 3C4D-1A2B
+```
+
+Have a look around the directory by typing `ls`.
+
+```bash
+ls
+```
+
+![Terminal](./images/terminal_headphones_ls.png)
+

@@ -81,3 +81,22 @@ ls
 ```
 ![Terminal](./images/terminal_blackpink_ls.png)
 
+I can then change to the directory blackpink by typing the following command:
+
+```bash
+cd blackpink
+```
+
+I can then create the directory born_pink by typing the following command:
+
+```bash
+mkdir born_pink
+```
+
+I can then change to the directory born_pink by typing the following command:
+
+```bash
+cd born_pink
+```
+
+![Terminal](./images/terminal_blackpink_born_pink.png)

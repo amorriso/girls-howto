@@ -28,3 +28,8 @@ I recommend you search for the artist and then click on Albums to see all the al
 
 ![Spotify](./images/spotify_album.png)
 
+### Click Share, then click Copy Album Link.
+
+![Spotify](./images/spotify_share.png)
+
+It will then say something like "Link Copied" at the bottom of the screen. This means the link has been copied to your clipboard, which means you can now paste the link into another application on your computer.

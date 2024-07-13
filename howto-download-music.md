@@ -234,3 +234,22 @@ This command will take a while, it needs to move the music from your computer to
 Once the command has finished, you can change to the tab where you are in the directory on your headphones and type `ls` to see the directories in the directory on your headphones.
 
 ![Terminal](./images/terminal_headphones_blackpink.png)
+
+## How to Delete Music from your Headphones
+
+### Open a terminal window.
+### Change to the directory where your headphones are mounted.
+
+```bash
+cd /media/ee/3C4D-1A2B
+```
+
+### Move around using cd and ls to find the directory where the music is stored.
+
+### Delete the music using the rm command.
+
+```bash
+rm -r blackpink
+```
+
+![Terminal](./images/terminal_rm.png)

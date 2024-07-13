@@ -53,3 +53,11 @@ At this point, you can type `ls` to see what is in the directory. You should see
 ls
 ```
 ![Terminal](./images/terminal_ls.png)
+
+You can also use the command `tree` to see a tree view of the directories and files. tree can be used with "the flag" -d to only show directories. These are like little folders that you can put files in.
+
+```bash
+tree -d
+```
+
+![Terminal](./images/terminal_tree.png)

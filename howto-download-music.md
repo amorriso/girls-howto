@@ -110,4 +110,18 @@ It could be the case that the link you copied into your clipboard earlier has be
 
 ![Terminal](./images/spotdl_link.png)
 
+This will then start to download the music. You will see a progress bar that shows how much of the music has been downloaded.
+
 ![Terminal](./images/spotdl_download.png)
+
+Once the music has been downloaded, you can then see the files in the directory by typing `ls`.
+
+```bash
+ls
+```
+
+![Terminal](./images/spotdl_ls.png)
+
+## Step 4: Transferring the Music to your Headphones
+
+
